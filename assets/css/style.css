@@ -70,7 +70,7 @@ a {
 
 main {
     background-color: #ffffff;
-    margin: 30px auto auto auto;
+    margin: 30px auto;
     width: 960px;
     border-style: solid;
     border-color: #dddddd;
@@ -93,7 +93,7 @@ main {
 
 #me {
     float: left;
-    width: 20%;
+    width: 200px;
     padding: 0 20px 0 0;
 }
 
@@ -110,7 +110,7 @@ footer {
     border-top: 10px solid #4aaaa5;
     background-color: #777777;
     height: 60px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -119,4 +119,31 @@ h6 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
     color: #cccccc;
+    position: relative;
+    top: 20px;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    padding: 30px;
+}
+
+#hiking, #running, #travel, #question {
+    vertical-align: top;
+    width: 100%;
+    height: 185px;
+}
+
+h4 {
+    width: 210px;
+    position: absolute;
+    top: 125px;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
