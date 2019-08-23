@@ -60,12 +60,20 @@ ul li:not(:first-child):before {
     color: #cccccc;
 }
 
-a {
+a:link {
     padding: 10px;
     color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     text-decoration: none;
+}
+
+a:visited {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: #777777;
 }
 
 main {
